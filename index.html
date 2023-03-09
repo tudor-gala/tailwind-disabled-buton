@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet"/>
+  <title>Tailwind CSS Disabled Button Example</title>
+</head>
+<body>
+  <div class="pl-6 pt-4 space-y-4" id="app">
+    <h2 class="text-lg">Normal Buttons</h2>
+    <div class="space-x-2">
+      <tw-button color="indigo">Click me!</tw-button>
+      <tw-button color="gray">Click me!</tw-button>
+      <tw-button color="red">Click me!</tw-button>
+      <tw-button color="yellow">Click me!</tw-button>
+      <tw-button color="green">Click me!</tw-button>
+      <tw-button color="blue">Click me!</tw-button>
+    </div>
+    <h2 class="text-lg">Disabled Using Opacity</h2>
+    <div class="space-x-2">
+      <tw-button color="indigo" :disabled="true">Click me!</tw-button>
+      <tw-button color="gray" :disabled="true">Click me!</tw-button>
+      <tw-button color="red" :disabled="true">Click me!</tw-button>
+      <tw-button color="yellow" :disabled="true">Click me!</tw-button>
+      <tw-button color="green" :disabled="true">Click me!</tw-button>
+      <tw-button color="blue" :disabled="true">Click me!</tw-button>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
