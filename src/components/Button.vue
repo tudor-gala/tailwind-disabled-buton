@@ -17,7 +17,6 @@ const bgClass = computed(() => {
     case 'blue': return 'bg-blue-500 hover:bg-blue-600';
   }
 });
-
 </script>
 
 <template>
